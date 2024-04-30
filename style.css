@@ -620,13 +620,13 @@ a {
     color: #fff;       
    }
    #home{
-    height: 100dvh ;
+    height: auto ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    }
    .hero-text{
-    height: auto;
+    height: 90vh;
     width: 100%;    
     justify-content: center;
    }
