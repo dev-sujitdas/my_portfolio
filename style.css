@@ -620,7 +620,7 @@ a {
     color: #fff;       
    }
    #home{
-    height: ;
+    height: 100dvh ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
