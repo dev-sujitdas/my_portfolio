@@ -92,7 +92,28 @@ nav ul li a:hover::after {
     padding-left: 10%;
     justify-content: center;
 }
-
+.btn{
+    padding: 0.7vw;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    background: linear-gradient(to top, #001426, rgb(111, 221, 238));
+    color: rgb(231, 247, 252);
+    font-family: philosopher;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+.btn:hover{    
+    box-shadow: 0px 0px 30px #4b8d9c;    
+}
+.btn .ri-send-plane-fill, .ri-download-cloud-2-fill, .ri-stack-fill{
+    font-size: 1.2vw;
+}
+.hero-btn{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
 .hero-text h1 {
     font-size: 5vw;
     font-family: Philosopher, "Times New Roman", Times, serif;
@@ -169,8 +190,9 @@ nav ul li a:hover::after {
 }
 
 .about .about-txt {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     color: #dfd5d5;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 
 .about-col-1 {
@@ -188,20 +210,21 @@ nav ul li a:hover::after {
 .about-title {
     font-size: 3vw;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 0.6vw;
 }
 
 .tab-titles {
     display: flex;
-    margin: 20px 0 30px;
+    margin: 0px 0 1.6vw;
 }
 
 .tab-links {
-    margin-right: 50px;
+    margin-right: 2.6vw;
     cursor: pointer;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-weight: 600;
     position: relative;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 
 .tab-links::after {
@@ -226,10 +249,12 @@ nav ul li a:hover::after {
 
 .tab-contents ul li span {
     color: #4bc7e3;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 .tab-contents ul li{
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 
 .tab-contents {
@@ -338,7 +363,6 @@ nav ul li a:hover::after {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    /* background: #000; */
 }
 
 .work {
@@ -463,13 +487,19 @@ p {
 }
 
 .explore span button {
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.7vw;
+    border-radius: 0.7vw;
     background: linear-gradient(to top, #001426, rgb(111, 221, 238));
     color: rgb(231, 247, 252);
     font-family: philosopher;
     text-transform: uppercase;
-    font-weight: 900;
+    /* font-weight: 900; */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.explore span button:hover{
+    box-shadow: 0px 0px 30px #4b8d9c;   
 }
 
 .explore {
@@ -563,7 +593,12 @@ a {
     color: rgb(231, 247, 252);
     font-family: philosopher;
     text-transform: uppercase;
-    font-weight: 900;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-col-2 form button:hover{
+    box-shadow: 0px 0px 30px #4b8d9c;   
 }
 
 .social {
@@ -612,6 +647,7 @@ a {
     padding: 5px 5%;
     height: 70px;
     width: 100%;
+    position: fixed;
    }
    nav .menu-icon{
     font-size: 20px;
@@ -620,7 +656,7 @@ a {
     color: #fff;       
    }
    #home{
-    height: auto ;
+    height: 100dvh ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -637,106 +673,117 @@ a {
     display: none;
    }
    .hero-text h1{
-    font-size: 10dvw;
+    font-size: 8.1dvw;
    }
    .hero-text h2{
     font-size: 6dvw;
    }
    .hero-text h3{
-    font-size: 5dvw;
+    font-size: 4.2dvw;
    }
    .row{
-    flex-direction: column;
+    /* height: auto; */
+    flex-direction: row;
+    /* background: #000; */
+    height: 450px;
    } 
    .about-col-1{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
     padding-bottom: 50px;  
+    
    }
    .about-col-1 img {
-    height: 200px;
-    width: 200px;
+    height: 35vh;
+    width: 100%;
     border-radius: 50%;
     object-fit: cover;    
     border-style: solid;
     border-width: 0.8px;
     border-color: #3992a7;
 }
+
 .sub-title{
-    font-size: 30px;
+    font-size: 4.2vw;
 }
 #about{
-    height: 100dvh;
+    height: 100vh;
 }
 .about .about-txt {
-    font-size: 14px;
+    font-size: 1.9vw;
     line-height: 20px;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 .about-title{
-    font-size: 30px;
+    font-size: 4.2vw;
     padding-bottom: 10px;
 }
 .tab-links {
-    font-size: 15px;
-    margin-top: -30px;
+    font-size: 2vw;
+    
 }
 .tab-contents ul li{
-    font-size: 14px;
+    font-size: 1.8vw;
 }
 .tab-contents ul li span{
-    font-size: 14px;
+    font-size: 1.8vw;
+}
+#services{
+    padding: 0 5%;
+}
+#services .sub-title{
+    padding-top: 70px;
 }
 
-.container-service{
-    flex-direction: column;
-    height: 90dvh;
-    align-items: center;
+.container-service {
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-gap: 20px;
 }
 .service{
-    height: 250px;
-    width: 80%;
+    height: auto;
+    width: 28vw;
+    display: grid;
 }
 .service span{
-    font-size: 15vw;
+    font-size: 8vw;
 }
 .service h3{
-    font-size: 15px;
+    font-size: 2.5vw;
 }
 .para .para-txt {
-    font-size: 12px;
+    font-size: 1.5vw;
     color: #dfd5d5;
     font-family: poppins;
 }
 .learn-more a {
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-weight: 400;
 }
+/* Portfolio Section */
 #portfolio{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;   
+    align-items: center;    
+    padding: 0 5%;
 }
 #portfolio .sub-title{
    padding-bottom: 20px; 
-   padding-top: -10px;
+   padding-top: 70px;
 }
-.container-portfolio{    
-    flex-direction: column;
-    /* background: #000; */
-    height: 87dvh;
-    width: 80%;
-    justify-items: center;
-    /* align-items: center; */
-    margin-top: -10px;
+.container-portfolio{      
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-gap: 20px;    
 }
 .work{
-   width: 100%;
-   height: 240px;
+    height: 46vh;
+    width: 28vw;
+    position: relative;
 }
-.num{
-    display: none;
+.num{    
+    position: absolute;
+    top: 20px;
 }
 .explore span button {
     padding: 8px;
@@ -748,24 +795,28 @@ a {
     font-weight: 500;
 }
 .contact-container{
-    flex-direction: column;
+    flex-direction: row;
 }
 .contact-col-1 {
-    /* align-items: center; */
+    flex-basis: 40%;
     padding-left: 1vw;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    /* background-color: pink; */
+    
 }
 
 .contact-col-2 {
-    flex-basis: 65%;
+    flex-basis: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
 }
 
 .contact-title {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-weight: 200;
     color: #dfd5d5;
     padding-bottom: 3vw;
@@ -776,14 +827,14 @@ a {
 a {
     color: #dfd5d5;
     text-decoration: none;
-    font-size: 1.15vw;
+    font-size: 2vw;
     font-weight: 200;
     font-family: poppins;
 }
 
 .contact-col-1 .ri-mail-send-line,
 .ri-phone-fill {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #4bc7e3;
 }
 
@@ -809,7 +860,7 @@ a {
 }
 
 .contact-col-2 form #Message::placeholder {
-    font-size: 1.1vw;
+    font-size: 1.7vw;
 }
 
 .contact-col-2 form button {
@@ -830,8 +881,8 @@ a {
 
 .social a .social-icons {
     margin-top: 2vw;
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 3.7vw;
+    width: 3.7vw;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -850,7 +901,7 @@ a {
 }
 
 .copyright h4 {
-    font-size: 1.2vw;
+    font-size: 2vw;
     font-weight: 100;
     font-family: philosopher;
     color: #fff;
