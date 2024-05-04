@@ -33,7 +33,7 @@
         <!-- Navigation Bar -->
         <nav>
             <img src="/logo/Sujit_Das.png" alt="Logo">
-            <label for="menu-toggle" class="menu-icon">&#9776;</a></label>
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -50,8 +50,8 @@
                 <h1><span>SUJIT DAS</span></h1>
                 <h3>Web Developer / Designer</h3>
                 <div class="hero-btn">
-                    <a href=""><button class="btn">CONTACT ME &nbsp;<i class="ri-send-plane-fill"></i></button></a>
-                    <a href=""><button class="btn">DOWNLOAD RESUME &nbsp;<i class="ri-download-cloud-2-fill"></i></button></a>
+                    <a href="#contact"><button class="btn">CONTACT ME &nbsp;<i class="ri-send-plane-fill"></i></button></a>
+                    <a id="downloadLink" href=""><button id="downloadBtn" class="btn">DOWNLOAD RESUME &nbsp;<i class="ri-download-cloud-2-fill"></i></button></a>
                 </div>
             </div>
             <div class="hero-img">
@@ -65,6 +65,7 @@
                 <div class="row">
                     <div class="about-col-1">
                         <img src="/images/Sujit.png" alt="sujit's image">
+                        <div class="img"></div>
                     </div>
                     <div class="about-col-2">
                         <h2 class="about-title">About Me</h2>
@@ -161,7 +162,7 @@
             <h2 class="sub-title">My Work</h2>
             <div class="container-portfolio">
 
-                <div class="work-list">
+                <div id="work-list1" class="work-list">
                     <div class="num">
                         <h1>01</h1>
                     </div>
@@ -178,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="work-list">
+                <div id="work-list2" class="work-list">
                     <div class="num">
                         <h1>02</h1>
                     </div>
@@ -196,7 +197,7 @@
                     </div>
                 </div>
 
-                <div class="work-list">
+                <div id="work-list3" class="work-list">
                     <div class="num">
                         <h1>03</h1>
                     </div>
@@ -216,8 +217,8 @@
             <div class="explore">
                 <span><a href="my_work.html"><button>Explore More &nbsp;<i class="ri-stack-fill"></i></button></a></span>
             </div>
-        </div>
-
+        </div>        
+        
         <!-- ********** CONTACT AREA ********** -->
         <div id="contact">
             <h2 class="sub-title">Contact Me</h2>
@@ -252,7 +253,7 @@
             </div>
         </div>
     </div>    
-    </div>    
+   
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>

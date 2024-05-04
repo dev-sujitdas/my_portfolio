@@ -65,3 +65,13 @@ function sendMail() {
         alert("Someting went wrong. Please try again later.");
     }); 
 }
+
+// Download Resume
+
+document.getElementById("downloadBtn").addEventListener("click", function (event) {    
+    event.preventDefault();
+    var pdfUrl = "files/Resume_SUJIT_DAS.pdf";
+    window.open(pdfUrl, "_blank");
+  });
+
+
