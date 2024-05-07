@@ -66,7 +66,6 @@ function sendMail() {
 }
 
 // Download Resume
-
 document.getElementById("downloadBtn").addEventListener("click", function (e) {    
     e.preventDefault();
     let pdfUrl = "files/Resume_SUJIT_DAS.pdf";
@@ -74,7 +73,6 @@ document.getElementById("downloadBtn").addEventListener("click", function (e) {
   });
 
 // Sidebar
-
 document.addEventListener("DOMContentLoaded", function() {
     let menuClick = document.querySelector(".menu-icon");
     let sideMenu = document.querySelector(".sidebar");
