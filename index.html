@@ -34,6 +34,13 @@
         <nav>
             <img src="/logo/Sujit_Das.png" alt="Logo">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="sidebar">                           
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>                
+            </div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -87,10 +94,10 @@
                                 <li><span><b>Designing</b></span><br>Canva</li>
                                 <li><span><b>Frontend Development</b></span><br>HTML5, CSS3, JavaScript, WordPress
                                 </li>
-                                <li><span><b>Frontend Framework</b></span><br>Bootstrap, Tailwind CSS, React.js</li>
+                                <li><span><b>Frontend Framework</b></span><br>Bootstrap, Tailwind CSS</li>
                                 <!-- <li><span><b>Backend Development</b></span><br>Node.js, WordPress CMS, C#, ADO.Net
                                 </li> -->
-                                <li><span><b>Database</b></span><br>Postgres, MSSQL, My SQL</li>
+                                <li><span><b>Database</b></span><br>MSSQL, My SQL</li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="Experience">
@@ -120,7 +127,7 @@
             <div class="container-service">
                 <div class="service">
                     <span><i class="ri-paint-brush-line"></i></span>
-                    <h3>UI/UX Design</h3>
+                    <h3>Web Design</h3>
                     <div class="para">
                         <p class="para-txt">Crafting engaging interfaces and seamless experiences using Figma. Let's
                             collaborate to bring
@@ -166,14 +173,14 @@
                     <div class="num">
                         <h1>01</h1>
                     </div>
-                    <div class="work">
+                    <div id="work1" class="work">
                         <div class="layer-top">
                             <h2>Pinterest Clone</h2>
                         </div>
-                        <img src="/images/business-tarot.jpg" alt="business website image">
+                        <img id="img1" src="/images/pinterest.png" alt="business website image">
                         <div class="layer-btm">
                             <h3>Project 1</h3><br>
-                            <p>Journey into the Mystical Realm: Exploring the World of Occult Science</p>
+                            <p>This project is currently under development. I am building the fully functional pinterest with database.</p>
                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
@@ -187,7 +194,7 @@
                         <div class="layer-top">
                             <h2>Business Website</h2>
                         </div>
-                        <img src="/images/business-website2.jpg" alt="Gravity Global Solution">
+                        <img id="img2" src="/images/business-website2.jpg" alt="Gravity Global Solution">
                         <div class="layer-btm">
                             <h3>Digital Marketing</h3><br>
                             <p>Empowering Your Online Presence: A Digital Marketing Odyssey</p>
@@ -205,7 +212,7 @@
                         <div class="layer-top">
                             <h2>Business Website</h2>
                         </div>
-                        <img src="/images/business-tarot.jpg" alt="business website image">
+                        <img id="img3" src="/images/business-tarot.jpg" alt="business website image">
                         <div class="layer-btm">
                             <h3>Divya Tarot</h3><br>
                             <p>Journey into the Mystical Realm: Exploring the World of Occult Science</p>
@@ -254,6 +261,7 @@
         </div>
     </div>    
    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>

@@ -10,7 +10,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 
 #main {
@@ -37,7 +37,12 @@ nav {
     z-index: 1000;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), #002231);
 }
-
+.sidebar{
+    display: none;
+}
+.sidebar li{
+    display: none;
+}
 nav img {
     height: 75px;
 }
@@ -394,6 +399,12 @@ nav ul li a:hover::after {
     object-fit: cover;
     border-radius: 10px;
 }
+.work #img1{
+    object-fit: contain;
+}
+#work1{
+    background-color: #CBE2F4;
+}
 
 .layer-top {
     height: 0;
@@ -663,8 +674,31 @@ a {
     font-size: 20px;
     padding: 5px 5%;
     display: block;
-    color: #fff;       
+    color: #fff;    
+    cursor: pointer;   
    }
+.sidebar{
+    height: 100vh;
+    width: 40%;
+    background-color: #002231;    
+    right: -40%;
+    top: 0;
+    margin-top: 70px;
+    padding-left: 20px;
+    position: absolute;
+    box-shadow: 0 10px 10px 10px rgb(0, 1, 34);   
+}
+.sidebar li{
+    list-style: none;    
+    display: block;   
+}
+.sidebar li a{
+    text-decoration: none;    
+    display: inline-block;    
+    margin: 20px;
+    font-family: Philosopher;
+    color: white;   
+}
    #home{
     height: 100dvh ;
     flex-direction: column;
@@ -749,12 +783,12 @@ a {
 
 .container-service {
     grid-template-columns: repeat(auto-fit, 1fr);
-    grid-gap: 20px;
+    grid-gap: 20px;    
 }
 .service{
     height: auto;
     width: 28vw;
-    display: grid;
+    display: grid;    
 }
 .service span{
     font-size: 8vw;

@@ -1,5 +1,4 @@
 // For Tabs In About Section
-
 function opentab(clickedTab, tabName) {
     let tabLinks = document.querySelectorAll(".tab-links");
     tabLinks.forEach((tabLink) => {
@@ -68,10 +67,33 @@ function sendMail() {
 
 // Download Resume
 
-document.getElementById("downloadBtn").addEventListener("click", function (event) {    
-    event.preventDefault();
-    var pdfUrl = "files/Resume_SUJIT_DAS.pdf";
+document.getElementById("downloadBtn").addEventListener("click", function (e) {    
+    e.preventDefault();
+    let pdfUrl = "files/Resume_SUJIT_DAS.pdf";
     window.open(pdfUrl, "_blank");
   });
+
+// Sidebar
+
+document.addEventListener("DOMContentLoaded", function() {
+    let menuClick = document.querySelector(".menu-icon");
+    let sideMenu = document.querySelector(".sidebar");
+    let tl = gsap.timeline({ paused: true });
+    
+    menuClick.addEventListener("click", function() {
+        if (window.getComputedStyle(sideMenu).display === "none") {
+            gsap.to(sideMenu, { right: 0, display: "block" });
+            tl.play();
+        } else {
+            gsap.to(sideMenu, { right: -sideMenu.offsetWidth, display: "none" });
+            tl.reverse();
+        }
+    });
+});
+
+
+    
+
+
 
 
