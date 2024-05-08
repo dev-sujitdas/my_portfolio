@@ -82,9 +82,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.getComputedStyle(sideMenu).display === "none") {
             gsap.to(sideMenu, { right: 0, display: "block" });
             tl.play();
+            menuClick.style.color = "red";
         } else {
             gsap.to(sideMenu, { right: -sideMenu.offsetWidth, display: "none" });
             tl.reverse();
+            menuClick.style.color = "white";
         }
     });
 });

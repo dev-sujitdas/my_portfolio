@@ -657,7 +657,7 @@ a {
 
 /* ************************************** FOR TAB SCREEN ********************************* */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 878px) {
    nav ul{
     display: none;
    }
@@ -696,6 +696,7 @@ a {
     text-decoration: none;    
     display: inline-block;    
     margin: 20px;
+    font-size: 1rem;
     font-family: Philosopher;
     color: white;   
 }
@@ -953,7 +954,7 @@ a {
 }
 
 /* For Smaller Screen Sizes */
-@media only screen and (max-width: 541px) {
+@media only screen and (max-width: 578px) {
     nav ul {
         display: none;
     }
@@ -975,6 +976,14 @@ a {
         display: block;
         color: #fff;       
     }
+    .sidebar li a{
+        text-decoration: none;    
+        display: inline-block;    
+        margin: 20px;
+        font-size: 1rem;
+        font-family: Philosopher;
+        color: white;   
+    }
     
     #home {
         height: 100svh;
@@ -994,21 +1003,29 @@ a {
     }
     
     .hero-text h1 {
-        font-size: 6.5vw;
+        font-size: 2rem;
     }
     
     .hero-text h2 {
-        font-size: 5vw;
+        font-size: 1.8rem;
     }
     
     .hero-text h3 {
-        font-size: 4vw;
+        font-size: 1.2rem;
     }
     .hero-btn{
         display: flex;
         flex-direction: column;
         gap: 30px;
         padding-top: 50px;
+    }
+    .btn{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+    }
+    .btn .ri-send-plane-fill, .ri-download-cloud-2-fill, .ri-stack-fill{
+        font-size: 0.9rem;
     }
     .row {
         flex-direction: column;
@@ -1036,10 +1053,13 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 50%;
+        border-color: #CBE2F4;
+        border-style: solid;
+        border-width: 1px;
     }  
   
     .sub-title {
-        font-size: 5vw;
+        font-size: 1.5rem;
     }
     
     #about {
@@ -1047,26 +1067,26 @@ a {
     }
     
     .about .about-txt {
-        font-size: 2.5vw;
+        font-size: 0.8rem;
         line-height: 20px;
         font-family: 'poppins', 'Times New Roman', Times, serif;
     }
     
     .about-title {
-        font-size: 4vw;
+        font-size: 1.5rem;
         padding-bottom: 5px;
     }
     
     .tab-links {
-        font-size: 2.5vw;
+        font-size: 0.8rem;
     }
     
     .tab-contents ul li {
-        font-size: 2vw;
+        font-size: 0.8rem;
     }
     
     .tab-contents ul li span {
-        font-size: 2vw;
+        font-size: 0.8rem;
     }
     
     #services {
@@ -1087,27 +1107,27 @@ a {
     }
     
     .service {
-        height: 20vh;
-        width: 80%;        
+        height: 30%;
+        width: 90%;        
         padding: 5px;
     }
     
     .service span {
-        font-size: 8vw;
+        font-size: 3rem;
     }
     
     .service h3 {
-        font-size: 3vw;
+        font-size: 1em;
     }
     
     .para .para-txt {
-        font-size: 2vw;
+        font-size: 0.8rem;
         color: #dfd5d5;
         font-family: poppins;
     }
     
     .learn-more a {
-        font-size: 2.5vw;
+        font-size: 0.8rem;
         font-weight: 400;
     }
 
@@ -1115,6 +1135,10 @@ a {
     #portfolio {
         height: 100vh;
         width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: red; */
+        padding-bottom: 5%;
     }
     /* #work-list1{
         display: none;
@@ -1125,15 +1149,31 @@ a {
     .container-portfolio{
         flex-direction: column;
         /* background-color: #000; */
-        height:75vh;     
-         
+        height:90vh;     
+        justify-content: space-evenly; 
+        margin-bottom: 2%; 
+        margin-top: 0;       
+    }
+   #portfolio .sub-title{
+        padding: 10% 0 0 0;        
     }
     .work{
-        height: 20vh;
-        width: 80%;
-        margin-left: 40px;
+        height: 25vh;
+        width: 90%;
+        margin-left: 15px; 
     }
-   
+    .work:hover .layer-top h2 {
+        font-size: 1.2rem;
+    }
+   .work:hover .layer-btm h3{
+    font-size: 1rem;
+   }
+   .work:hover .layer-btm p{
+    font-size: 0.8rem;
+   }
+   .work:hover .layer-btm a{
+    font-size: 0.8rem;    
+   }
     .contact-container{
         display: flex;
         flex-direction: column-reverse;
@@ -1189,25 +1229,26 @@ a {
     }
     
     .contact-col-2 form input {
-        padding: 0.5vw;
-        border-radius: 0.5vw;
+        padding: 5px;
+        border-radius: 5px;
         background: rgb(228, 244, 255);
     }
     
     .contact-col-2 form #Message {
         background: rgb(228, 244, 255);
-        border-radius: 0.5vw;
+        border-radius: 5px;
         font-size: 1.5vw;
     }
     
     .contact-col-2 form #Message::placeholder {
-        font-size: 1.7vw;
+        font-size: 0.8rem;
+        
     }
     
     .contact-col-2 form button {
-        padding: 0.8vw;
+        padding: 8px;
         width: fit-content;
-        border-radius: 0.8vw;
+        border-radius: 10px;
         background: linear-gradient(to top, #001426, rgb(111, 221, 238));
         color: rgb(231, 247, 252);
         font-family: philosopher;
