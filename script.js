@@ -33,7 +33,7 @@ sendData.addEventListener("click", function (e) {
         sendMail();
         document.getElementById("Name").value = "";
         document.getElementById("Email").value = "";
-        document.getElementById("Message").value = "";              
+        document.getElementById("Message").value = "";             
     }    
 });
 
