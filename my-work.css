@@ -22,16 +22,28 @@ html, body{
     height: auto;
     width: 50%; 
     border-right: 0.2em solid #4bc7e3;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-right{
     height: auto;
     width: 50%;
-    padding: 5%;    
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
-#work-description{
+.work-description{
     display: flex;
     justify-content: start;    
-    align-items: center;    
+    align-items: start;   
+    flex-direction: column; 
+}
+.work-description p{
+    font-size: 1.02rem;
+    color: aliceblue;
+    font-weight: 100;
 }
 #hero-area2, #hero-area3{
     width: 100%;    
