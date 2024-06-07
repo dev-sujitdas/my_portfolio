@@ -4,10 +4,38 @@
     box-sizing: border-box;
 }
 html, body{
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth; 
 }
 
+#hero-area{
+    margin-top: 10%;    
+    width: 100%;    
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hero-left{
+    height: auto;
+    width: 50%; 
+    border-right: 0.2em solid #4bc7e3;   
+}
+.hero-right{
+    height: auto;
+    width: 50%;
+    padding: 5%;    
+}
+#work-description{
+    display: flex;
+    justify-content: start;    
+    align-items: center;    
+}
+#hero-area2, #hero-area3{
+    width: 100%;    
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
