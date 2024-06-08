@@ -20,15 +20,17 @@ html, body{
 }
 .hero-left{
     height: auto;
-    width: 50%; 
-    border-right: 0.2em solid #4bc7e3;   
+    width: 49.9%; 
+    /* border-right: 0.2em solid #4bc7e3;    */
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    padding: 5%;
 }
 .hero-right{
     height: auto;
-    width: 50%;
+    width: 49.9%;
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -40,9 +42,44 @@ html, body{
     align-items: start;   
     flex-direction: column; 
 }
+.work-image img{
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.hero-center{
+    width: 0.2%;
+    background-color: #47bad4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-center #a{
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(204, 208, 211);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0px 0px 20px #9fd3df;      
+}
+
+#a #b{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #001426;
+    border-radius: 50%;
+}
 .work-description p{
     font-size: 1.02rem;
-    color: aliceblue;
+    color: rgb(204, 208, 211);
     font-weight: 100;
 }
 #hero-area2, #hero-area3{
