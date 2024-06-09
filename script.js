@@ -16,6 +16,13 @@ function opentab(clickedTab, tabName) {
     tabContent.classList.add("active-tabs");
 }
 
+// Clickable logo
+let logoClick = document.getElementById("logo");
+logoClick.style.cursor = "pointer";
+logoClick.addEventListener("click", ()=>{
+    window.location.href = "/#home";
+})
+
 // For Colleting the Form Data In Email...
 const sendData = document.querySelector("#Send");
 sendData.addEventListener("click", function (e) {
