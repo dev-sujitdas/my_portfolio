@@ -150,6 +150,9 @@ html, body{
         justify-content: center;
         align-items: center;    
     }
+    #hero-title h1{
+        font-size: 1rem;;
+    }
 }
 
 @media (max-width: 768px) {
