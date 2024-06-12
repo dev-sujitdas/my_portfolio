@@ -89,18 +89,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (window.getComputedStyle(sideMenu).display === "none") {
             gsap.to(sideMenu, { right: 0, display: "block" });
             tl.play();
-            menuClick.style.color = "red";
-        } else {
+            menuClick.innerHTML = `<label for="menu-toggle" class="menu-icon"><i class="ri-close-line"></i></label>`
+        }else {
             gsap.to(sideMenu, { right: -sideMenu.offsetWidth, display: "none" });
-            tl.reverse();
-            menuClick.style.color = "white";
+            tl.reverse();            
+            menuClick.innerHTML = `<label for="menu-toggle" class="menu-icon">&#9776;</label>`;
         }
-    });
+    });    
 });
-
-
-    
-
-
 
 
