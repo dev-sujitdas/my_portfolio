@@ -925,9 +925,7 @@ font-size: 1.2rem;
     flex-basis: 60%;
     display: flex;
     justify-content: start;
-    align-items: center;
-    background-color: red;
-
+    align-items: center;    
 }
 
 .contact-title {
@@ -1228,31 +1226,27 @@ a {
         height: auto;
         width: 100%;
         flex-direction: column;
-        justify-content: space-evenly;
-        /* background-color: red; */
-        padding-bottom: 5%;
+        justify-content: space-evenly;        
+        padding-bottom: 5%;      
     }
-    /* #work-list1{
-        display: none;
-    } */
+   
     .num{
         display: none;
     }
-    .container-portfolio{
-        flex-direction: column;
-        /* background-color: #000; */
-        height:auto;     
+    .container-portfolio{        
+        width: 100%;
+        flex-direction: column;        
         justify-content: space-evenly; 
         margin-bottom: 2%; 
-        margin-top: 0;       
+        margin-top: 2rem;       
     }
+
    #portfolio .sub-title{
         padding: 10% 0 0 0;        
     }
     .work{
-        height: 28vh;
-        width: 90%;
-        margin-left: 15px; 
+        height: 25vh;
+        width: 100%;        
     }
     .work:hover .layer-top h2 {
         font-size: 1.2rem;
@@ -1273,6 +1267,17 @@ a {
     .work:hover .layer-btm {
         padding-bottom: 1rem;
     }
+
+    .explore span button {
+        padding: 0.8rem;
+        border-radius: 10px;
+        background: linear-gradient(to top, #001426, rgb(111, 221, 238));
+        color: rgb(231, 247, 252);
+        font-family: philosopher;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1rem;
+    }
     
     .contact-col-1 {
         flex-basis: 100%;
@@ -1291,25 +1296,25 @@ a {
     }
     
     .contact-title {
-        font-size: 4vw;
+        font-size: 1.5rem;
         font-weight: 200;
         color: #dfd5d5;
-        padding-bottom: 3vw;
-        padding-top: 2vw;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
     
     .contact-col-1 span,
     a {
         color: #dfd5d5;
         text-decoration: none;
-        font-size: 3vw;
+        font-size: 1rem;
         font-weight: 200;
         font-family: poppins;
     }
     
     .contact-col-1 .ri-mail-send-line,
     .ri-phone-fill {
-        font-size: 3.5vw;
+        font-size: 1.5rem;
         color: #4bc7e3;
     }
     
@@ -1359,8 +1364,8 @@ a {
     
     .social a .social-icons {
         margin-top: 2vw;
-        height: 5.5vw;
-        width: 5.5vw;
+        height: 2rem;
+        width: 2rem;
         transition: transform 0.2s ease-in-out;
     }
     
@@ -1379,7 +1384,7 @@ a {
     }
     
     .copyright h4 {
-        font-size: 2vw;
+        font-size: 1.2rem;
         font-weight: 100;
         font-family: philosopher;
         color: #fff;
