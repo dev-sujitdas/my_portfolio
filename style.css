@@ -779,32 +779,32 @@ a {
 }
 
 .about .about-txt {
-    font-size: 1.2rem;
+    font-size: 1.6vw;
     line-height: 20px;
     font-family: 'poppins', 'Times New Roman', Times, serif;
 }
 
 .about-title {
-    font-size: 2rem;
+    font-size: 3vw;
     padding-bottom: 5px;
 }
 
 .tab-links {
-    font-size: 1.3rem;
+    font-size: 1.8vw;
 }
 
 .tab-contents ul li {
-    font-size: 1.2rem;
+    font-size: 1.6vw;
 }
 
 .tab-contents ul li span {
-    font-size: 1.2rem;
+    font-size: 1.7vw;
 }
 
 /* SERVICES SECTION */
 #services {
     padding: 0 5%;        
-    height: 100vh;
+    height: auto;
 }
 
 #services .sub-title {
@@ -817,9 +817,9 @@ a {
     flex-direction: column;           
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-gap: 10px;   
+    grid-gap: 20px;   
     /* background: #000;    */
-    padding: 2rem 0 2rem;  
+    padding: 2em 0 2em;  
 }
 
 .service {
@@ -835,15 +835,16 @@ a {
 }
 
 .service span {
-    font-size: 5rem;
+    font-size: 8.5vw;
 }
 
 .service h3 {
-    font-size: 1.5rem;
+    font-size: 2.5vw;
+    
 }
 
 .para .para-txt {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #dfd5d5;
     font-family: poppins;
 }
@@ -869,28 +870,29 @@ a {
     padding: 0;
     height:auto; 
     width: 100%;        
-    margin-bottom: 2%; 
+    margin-bottom: 2em; 
     margin-top: 3rem;   
     gap: 2rem;    
 }
-#portfolio .sub-title{
-    padding: 10% 0 0 0;        
-}
+
 .work{
     height: 32vh;
     width: 100%;    
 }
 .work:hover .layer-top h2 {
-    font-size: 1.8rem;
+    font-size: 2.5vw;
 }
 .work:hover .layer-btm h3{
-font-size: 1.5rem;
+font-size: 2vw;
+}
+.work:hover .layer-btm{
+    padding-bottom: 0.8em;
 }
 .work:hover .layer-btm p{
-font-size: 1.2rem;
+font-size: 1.5vw;
 }
 .work:hover .layer-btm a{
-font-size: 1.2rem;    
+font-size: 1.8vw;    
 }
 .contact-container{
     display: flex;
@@ -900,16 +902,20 @@ font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 .explore span button {
-    padding: 1rem;
-    border-radius: 1.5rem;
+    padding: 1em;
+    border-radius: 10px;
     background: linear-gradient(to top, #001426, rgb(111, 221, 238));
     color: rgb(231, 247, 252);
     font-family: philosopher;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5vw;
+}
+#contact{
+    height: auto;
 }
 .contact-container{
+    height: auto;
     flex-direction: column;
 }
 .contact-col-1 {
@@ -917,8 +923,7 @@ font-size: 1.2rem;
     padding-left: 1vw;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* background-color: pink;     */
+    flex-direction: column;    
 }
 
 .contact-col-2 {
@@ -929,7 +934,7 @@ font-size: 1.2rem;
 }
 
 .contact-title {
-    font-size: 1.9rem;
+    font-size: 3vw;
     font-weight: 200;
     color: #dfd5d5;
     padding-bottom: 2rem;
@@ -940,14 +945,14 @@ font-size: 1.2rem;
 a {
     color: #dfd5d5;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.8vw;
     font-weight: 200;
     font-family: poppins;
 }
 
 .contact-col-1 .ri-mail-send-line,
 .ri-phone-fill {
-    font-size: 1.8rem;
+    font-size: 2.5vw;
     color: #4bc7e3;
 }
 
@@ -963,13 +968,13 @@ a {
     padding: 0.8rem;
     border-radius: 10px;
     background: rgb(228, 244, 255);
-    font-size: 1rem;
+    font-size: 1.8vw;
 }
 
 .contact-col-2 form #Message {
     background: rgb(228, 244, 255);
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.8vw;
 }
 
 .contact-col-2 form #Message::placeholder {
@@ -1055,7 +1060,7 @@ a {
         text-decoration: none;    
         display: inline-block;    
         margin: 20px;
-        font-size: 1rem;
+        font-size: 1em;
         font-family: Philosopher;
         color: white;   
     }
@@ -1064,9 +1069,9 @@ a {
     .ri-service-fill,
     .ri-pass-valid-fill,
     .ri-contacts-book-fill {
-        font-size: 1.2rem;
+        font-size: 1.2em;
         gap: 3rem;
-        margin-right: 2rem;
+        margin-right: 2em;
     }
     #home {
         height: 100svh;
@@ -1269,14 +1274,14 @@ a {
     }
 
     .explore span button {
-        padding: 0.8rem;
+        padding: 10px;
         border-radius: 10px;
         background: linear-gradient(to top, #001426, rgb(111, 221, 238));
         color: rgb(231, 247, 252);
         font-family: philosopher;
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 2vw;
     }
     
     .contact-col-1 {
@@ -1296,7 +1301,7 @@ a {
     }
     
     .contact-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 200;
         color: #dfd5d5;
         padding-bottom: 2rem;
@@ -1307,14 +1312,14 @@ a {
     a {
         color: #dfd5d5;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 200;
         font-family: poppins;
     }
     
     .contact-col-1 .ri-mail-send-line,
     .ri-phone-fill {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #4bc7e3;
     }
     
@@ -1364,8 +1369,8 @@ a {
     
     .social a .social-icons {
         margin-top: 2vw;
-        height: 2rem;
-        width: 2rem;
+        height: 1.5rem;
+        width: 1.5rem;
         transition: transform 0.2s ease-in-out;
     }
     
@@ -1384,11 +1389,61 @@ a {
     }
     
     .copyright h4 {
-        font-size: 1.2rem;
+        font-size: 0.9em;
         font-weight: 100;
         font-family: philosopher;
         color: #fff;
     }
 }
 
+@media screen and (max-width:375px) {
+    .work:hover .layer-top h2 {
+        font-size: 1em;
+    }
+   .work:hover .layer-btm h3{
+    font-size: 0.8em;
+   }
+   .work:hover .layer-btm p{
+    font-size: 0.7em;
+   }
+   .work:hover .layer-btm a{
+    font-size: 0.8rem;    
+   }
+    .contact-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .work:hover .layer-btm {
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    .explore span button {
+        padding: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to top, #001426, rgb(111, 221, 238));
+        color: rgb(231, 247, 252);
+        font-family: philosopher;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .contact-col-2 form input {
+        padding: 5px;
+        border-radius: 5px;
+        background: rgb(228, 244, 255);
+        font-size: 0.8em;
+    }
+    
+    .contact-col-2 form #Message {
+        background: rgb(228, 244, 255);
+        border-radius: 5px;
+        font-size: 1.5vw;
+    }
+    
+    .contact-col-2 form #Message::placeholder {
+        font-size: 0.8rem;
+        
+    }
+}
 
