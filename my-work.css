@@ -161,21 +161,21 @@ html, body{
 }
 
 @media (max-width: 768px) {
-    #hero-area, #hero-area2, #hero-area3 {
+    #hero-area, #hero-area3, #hero-area4 {
         flex-direction: column;
         align-items: center;
         padding-left: 2rem;
         padding-right: 2rem;
     }
 
-    #hero-area2{
+    #hero-area2, #hero-area4{
         flex-direction: column-reverse;
     }
     .hero-left, .hero-right {
         width: 100%;
         padding: 2rem 0;
     }
-    #hero-area3 .hero-left{
+    #hero-area4 .hero-left{
         margin-bottom: 2rem;
     }
     .hero-center {
