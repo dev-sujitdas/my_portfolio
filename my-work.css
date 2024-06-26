@@ -15,8 +15,8 @@ html, body{
     margin-top: 3.5em;    
     width: 100%;    
     display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;    
+    padding-left: 10%;
+    padding-right: 10%;    
 }
 #hero-container{
     position: relative;
@@ -41,8 +41,7 @@ html, body{
 }
 .hero-left{
     height: auto;
-    width: 49.9%; 
-    /* border-right: 0.2em solid #4bc7e3;    */
+    width: 49.9%;     
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,18 +102,24 @@ html, body{
     color: rgb(204, 208, 211);
     font-weight: 100;
 }
-#hero-area2, #hero-area3{
+.work-image img{
+    transition: transform 0.5s ease-in-out;
+}
+.work-image img:hover{
+    transform: scale(0.9);    
+}
+#hero-area2, #hero-area3, #hero-area4{
     width: 100%;    
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
     margin: 0;
 }
-#hero-area3{    
+#hero-area4{    
     position: relative;    
 }
-#hero-area3 .hero-left,
-#hero-area3 .hero-right {
+#hero-area4 .hero-left,
+#hero-area4 .hero-right {
     margin-bottom: 5rem;
 }
 #end-line{    
