@@ -16,3 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });    
 });
+
+// Clickable logo
+let logoClick = document.getElementById("logo");
+logoClick.style.cursor = "pointer";
+logoClick.addEventListener("click", ()=>{
+    window.location.href = "/#home";
+})
