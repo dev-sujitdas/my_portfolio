@@ -13,6 +13,20 @@ body {
     scroll-behavior: smooth;    
 }
 
+/* Scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;    
+}
+::-webkit-scrollbar-track {
+    background: #00141d;    
+}
+::-webkit-scrollbar-thumb {
+    background: #02263b;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 #main {
     height: 100%;
     width: 100%;
