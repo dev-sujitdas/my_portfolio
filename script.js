@@ -25,7 +25,7 @@ logoClick.addEventListener("click", ()=>{
 
 // For Colleting the Form Data In Email...
 const sendData = document.querySelector("#Send");
-sendData.addEventListener("click", function (e) {
+sendData.addEventListener("click", function (event) {
     
     let nameVal = document.getElementById("Name").value;
     let emailVal = document.getElementById("Email").value;
@@ -36,7 +36,7 @@ sendData.addEventListener("click", function (e) {
     if(Val===""){
         // alert("Please fill all the details..");
     } else {
-        e.preventDefault();
+        event.preventDefault();
         sendMail();
         document.getElementById("Name").value = "";
         document.getElementById("Email").value = "";
